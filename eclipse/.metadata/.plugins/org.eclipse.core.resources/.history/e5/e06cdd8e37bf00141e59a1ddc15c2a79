@@ -1,0 +1,11 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.item.ItemFood;
+
+public class Pie extends ItemFood {
+
+	public Pie(boolean wolvesFavourite) {
+		super(4, (float)0, wolvesFavourite);
+	}
+
+}

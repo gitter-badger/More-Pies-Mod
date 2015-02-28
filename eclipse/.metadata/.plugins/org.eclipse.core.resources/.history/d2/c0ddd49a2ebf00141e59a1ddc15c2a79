@@ -1,0 +1,11 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class CondensedPie extends Block {
+
+	public CondensedPie() {
+		super(Material.rock);
+	}
+}

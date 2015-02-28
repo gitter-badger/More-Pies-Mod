@@ -1,0 +1,11 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.item.ItemFood;
+
+public class Pie extends ItemFood {
+
+	public Pie(int healAmount, float saturationModifier, boolean wolvesFavourite) {
+		super(healAmount, saturationModifier, wolvesFavourite);
+	}
+
+}

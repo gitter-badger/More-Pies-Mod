@@ -1,0 +1,12 @@
+package net.riftnetwork.zudomc.morepies;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = MorePies.MOD_ID, version = MorePies.MOD_VER, name = MorePies.MOD_NAME)
+public class MorePies {
+
+	public static final String MOD_ID = "morepies";
+	public static final String MOD_VER = "1.0";
+	public static final String MOD_NAME = "More Pies Mod";
+	
+}

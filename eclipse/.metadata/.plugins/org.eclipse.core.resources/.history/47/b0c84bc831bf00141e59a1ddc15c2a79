@@ -1,0 +1,7 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.item.Item;
+
+public class ZudoPie extends Item {
+
+}

@@ -1,0 +1,11 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.item.Item;
+
+public class ZudoPie extends Item {
+
+	public ZudoPie() {
+		setUnlocalizedName(MorePies.MOD_ID + "_zudoPie");
+		setTextureName(MorePies.MOD_ID + ":" + "zudoPie");
+	}
+}

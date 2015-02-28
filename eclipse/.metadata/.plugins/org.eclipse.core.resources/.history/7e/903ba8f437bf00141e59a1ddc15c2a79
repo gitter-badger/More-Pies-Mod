@@ -1,0 +1,12 @@
+package net.riftnetwork.zudomc.morepies;
+
+import net.minecraft.item.ItemFood;
+import net.minecraft.potion.PotionEffect;
+
+public abstract class Pie extends ItemFood {
+
+	public Pie(boolean wolvesFavourite, PotionEffect[] potions) {
+		super(4, (float)0, wolvesFavourite);
+	}
+
+}
